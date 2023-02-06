@@ -1,0 +1,43 @@
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css"); 
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
+
+:root {
+    /* default:	transparent; (lowest bg color of changed windows, change it in case another theme turns them transparent) */
+    --settingsmodalbackground: transparent;
+    /* default:	960px; (width of the settings modal, px/vw) */
+    --settingsmodalwidth: 960px;
+    /* default:	80vh; (height of the settings modal, px/vh) */
+    --settingsmodalheight: 80vh;
+    /* default: https://i.imgur.com/IjoybQw.png; (url to image that shows in home button) */
+    --home-button-image: url("https://i.imgur.com/IjoybQw.png")
+}
+
+
+.tutorialContainer-1pL9QS .listItem-3SmSlK:first-child .wrapper-3kah-n:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    background: var(--home-button-image);
+    background-size: var(--home-button-size, cover);
+    background-position: var(--home-button-position, center);
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+.homeIcon-r0w4ny {
+    display: none;
+}
+
+.searchBar-jGtisZ {
+    width: 27px;
+    transition: width 0.6s ease-in-out;
+}
+
+.focused-8aNhVB .searchBar-jGtisZ,
+.open-3y3yI_ .searchBar-jGtisZ,
+.searchBar-jGtisZ:hover {
+    width: 240px;
+}

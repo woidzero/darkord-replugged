@@ -1,0 +1,18 @@
+{
+  "id": "dev.woidzero.Darkord",
+  "name": "Darkord",
+  "description": "AMOLED dark, settings modal and some other features Replugged theme for Discord. ",
+  "author": {
+    "name": "woidzero",
+    "discordID": "785560018837176350",
+    "github": "woidzero"
+  },
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "woidzero/darkord"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/main.css"
+}
