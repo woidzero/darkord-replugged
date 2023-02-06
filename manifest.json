@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "woidzero/darkord"
+    "id": "woidzero/darkord-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
